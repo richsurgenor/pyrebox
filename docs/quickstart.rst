@@ -220,7 +220,7 @@ operating system version.
 The [AGENT] section allows you to configure the name of the agent binary (see documentation related to the agent), 
 and the configuration file for that binary.
 
-The [SYMBOL_CACHE] section, allows you to speficy the path for a json file that will be used by PyREBox to preserve
+The [SYMBOL_CACHE] section, allows you to specify the path for a json file that will be used by PyREBox to preserve
 resolved symbols between different sessions. This path should be unique for each qemu image you have, and improves
 significantly the performance once it is loaded with data on the first execution of the system.
 
